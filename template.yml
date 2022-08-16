@@ -1,0 +1,7 @@
+MyWebsite:
+ Type: AWS::S3::Bucket
+ Properties:
+   AccessControl: PublicRead
+   WebsiteConfiguration:
+     IndexDocument: index.html
+   BucketName: Dan-demo-site
